@@ -1,0 +1,56 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  a:hover {
+    color: #ff7f50;
+  }
+  .cityName {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    padding-top: 50px;
+  }
+  .cityTemp {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  
+  .cityCondition {
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .forecast {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .timeofDay {
+    text-align: center;
+    font-size: 12px;
+  }
+  .codedBy {
+    text-align: center;
+    font-size: 12px;
+  }
+  .header {
+    text-align: center;
+    color: #000;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #7e7b7d;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 6px 9px 11px -9px #7e7b7d;
+  }
+  
