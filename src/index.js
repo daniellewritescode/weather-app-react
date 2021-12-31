@@ -55,7 +55,7 @@ function App() {
           <div className="row">
             <div className="col codedBy">
               <span>
-                <a href="https://github.com/daniellewritescode/shecodes">
+                <a href="https://github.com/daniellewritescode">
                   GitHub
                 </a>{" "}
                 &nbsp; Coded by Danielle
