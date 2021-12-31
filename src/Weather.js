@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Loader from "react-loader-spinner";
+
 export default function Weather(props) {
   let [city, setCity] = useState(null);
   let [temp, setTemp] = useState(null);
@@ -13,6 +14,7 @@ export default function Weather(props) {
   function handleSubmit(event) {
     event.preventDefault();
     setResult(`${city}`);
+    result(city)
     let apiKey = "f221ad1bc52d44e22fdecebbd007fb29";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
