@@ -6,22 +6,25 @@
     color: #ff7f50;
   }
   .cityName {
+  
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 500;
     padding-bottom: 0px;
-    padding-top: 50px;
+    padding-top: 25px;
   }
   .cityTemp {
+
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     padding: 10px 0px;
   }
   
   .cityCondition {
-    text-align: left;
+    text-align: center;
     font-size: 14px;
+    background-color:#d1a0c1;
   }
   
   .forecast {
@@ -45,6 +48,7 @@
     padding: 10px;
   }
   .wrapper {
+    min-height: 300px;
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;

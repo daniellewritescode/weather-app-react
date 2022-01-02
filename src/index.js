@@ -20,31 +20,9 @@ function App() {
           <div className="row">
             <div className="mb-3"></div>
           </div>
-
-          <div className="row">
-            <div className="col hstack">
-              <div className="col vstack">
-                <div className="cityName" id="cityChange"></div>
-                <div className="cityTemp">
-                  <span className="cityTempn"></span>
-                </div>
-              </div>
-              <div className="col">
-                <div className="cityCondition"></div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">&nbsp;</div>
-          </div>
-          <div className="forecaststuff hstack"></div>
-          <div className="row">
-            <div className="col">&nbsp;</div>
-          </div>
-
           <div className="row">
             <div className="col timeofDay">
-              <Weather />
+              <Weather defaultCity="Philadelphia"/>
             </div>
           </div>
           <div className="row">
